@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:id="@+id/layout"
+    android:clickable="true"
+    android:onClick="Hidekeyboard"
+
+    tools:context=".GetStarted">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/caicon"
+        android:layout_gravity="center"
+        android:id="@+id/caimage"
+        android:layout_weight="0"
+        android:onClick="Hidekeyboard"
+        android:clickable="true"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/bginput"
+        android:inputType="textPersonName"
+        android:hint="Username"
+        android:textSize="28sp"
+        android:textColorHint="#6E6388"
+        android:textColor="#6E6388"
+        android:id="@+id/username"
+        android:paddingLeft="13dp"
+        android:layout_margin="10dp"
+        android:layout_weight="0"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/bginput"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textSize="28sp"
+        android:textColorHint="#6E6388"
+        android:textColor="#6E6388"
+        android:id="@+id/password"
+        android:paddingLeft="13dp"
+        android:layout_margin="10dp"
+        android:layout_weight="0"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot your password?"
+        android:layout_gravity="right"
+        android:textStyle="bold"
+        android:textColor="#6E6388"
+        android:textSize="18sp"
+        android:id="@+id/forgotpassword"
+        android:onClick="ResetPassword"
+        android:layout_weight="0"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/bcgrnd"
+        android:text="Login"
+        android:textSize="24sp"
+        android:onClick="LoGin"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_margin="10dp"
+        android:id="@+id/login"
+        android:layout_weight="0"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? Sign Up"
+        android:layout_gravity="center"
+        android:textColor="#6E6388"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:onClick="SignUpProcess"
+        android:id="@+id/signup"
+        android:layout_weight="0"/>
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:src="@drawable/picgetdua"
+        android:layout_gravity="right"
+        android:layout_weight="1"
+        android:id="@+id/manimage"
+        />
+
+
+</android.support.v7.widget.LinearLayoutCompat>

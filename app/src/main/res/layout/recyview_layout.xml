@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:clickable="true"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+
+    android:layout_centerHorizontal="true"
+    android:shape="ring">
+
+
+
+       <android.support.v7.widget.CardView
+           android:layout_width="80dp"
+           android:layout_height="80dp"
+           android:elevation="12dp"
+           android:id="@+id/view2"
+
+           app:cardCornerRadius="40dp"
+           android:layout_centerHorizontal="true">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:gravity="center"
+               android:background="@color/colorPrimaryDark"
+               android:text="S"
+               android:textColor="#ffffff"
+               android:textSize="25sp"
+               android:id="@+id/imagetext"/>
+
+       </android.support.v7.widget.CardView>
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Swiggy"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:textSize="25sp"
+            android:paddingLeft="20dp"
+            android:id="@+id/subjecttext"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Republic Day offers"
+            android:paddingLeft="20dp"
+            android:id="@+id/filenametext"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="24/12/18"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+
+            android:id="@+id/datetext"/>
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+
+
+
+</android.support.v7.widget.LinearLayoutCompat>

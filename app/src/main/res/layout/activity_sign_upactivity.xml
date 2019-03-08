@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpactivity"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/caicon"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:id="@+id/caicon"
+        />
+
+
+    <EditText
+        android:id="@+id/signupusername"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/bginput"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:paddingLeft="13dp"
+        android:textColor="#6E6388"
+        android:textColorHint="#6E6388"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="158dp"
+        android:layout_margin="10dp"
+        android:layout_weight="0"
+        />
+
+    <EditText
+        android:id="@+id/signupemailid"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/bginput"
+        android:hint="Email-Id"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="13dp"
+        android:textColor="#6E6388"
+        android:textColorHint="#6E6388"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="90dp"
+        android:layout_margin="10dp"
+        android:layout_weight="0"/>
+
+    <EditText
+        android:id="@+id/signuppassword"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/bginput"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="13dp"
+        android:textColor="#6E6388"
+        android:textColorHint="#6E6388"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="321dp"
+        android:layout_margin="10dp"
+        android:layout_weight="0"/>
+    <EditText
+        android:id="@+id/signupreenterpass"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/bginput"
+        android:hint="Re-Enter Password"
+        android:inputType="textPassword"
+        android:paddingLeft="13dp"
+        android:textColor="#6E6388"
+        android:textColorHint="#6E6388"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="321dp"
+        android:layout_margin="10dp"
+        android:layout_weight="0"/>
+
+    <Button
+        android:id="@+id/signupsucess"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:background="@drawable/bcgrnd"
+        android:onClick="SignUp"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:layout_marginTop="25dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="237dp"
+        android:layout_gravity="center"
+        android:layout_weight="0"/>
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_gravity="right"
+        android:src="@drawable/picget"
+        android:layout_weight="1"
+        android:id="@+id/wo"/>
+
+
+</android.support.v7.widget.LinearLayoutCompat>

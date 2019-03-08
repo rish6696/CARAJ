@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">yUvdFVrtFXCqF4JjLWEPboDZYKxH8igk8kBHcxA6</string>
+    <string name="back4app_client_key">1Vx4o58fLc9G3DHnJsZ4B9SHAuc8MQssPUoxrMTN</string>
+
+    <string name="app_name">CA RAJ</string>
+
+</resources>
